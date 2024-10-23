@@ -8,10 +8,7 @@ h2 {
   max-width: 1200px;
   min-width: 600px;
 }
-header {
-  /* border-radius: 8px; */
-  
-}
+
 header > .container {
   display: flex;
   justify-content: space-between;
@@ -19,13 +16,7 @@ header > .container {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-header h1 a {
-  color: #fff;
-  text-decoration: none;
-}
-header h1 a:hover {
-  text-decoration: underline;
-}
+
 #logo {
   padding: 10px;
 }
