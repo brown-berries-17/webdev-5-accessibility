@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: helvetica, arial, sans-serif;
   font-size: 1em;
@@ -74,6 +77,18 @@ input[type="email"],
 input[type="tel"],
 textarea {
   padding: 0.5rem;
+}
+
+select {
+  display: block;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+}
+.form-group {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 footer {
